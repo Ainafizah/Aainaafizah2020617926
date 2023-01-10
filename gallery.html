@@ -1,0 +1,184 @@
+<html>
+<head>
+<link href="assest/css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Aainaa Fadzil</title>
+</head>
+<body>
+<body bgcolor="#F5DEB3">
+
+<a name="first_anchor"> </a>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="experience.html">Experience</a>
+  <div class="topnav-right">
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+
+ <h1 id="current-time">00:00:00</h1> 
+   </div>
+
+<script>
+   let time = document.getElementById("current-time");
+
+
+   setInterval(() =>{
+      let d = new Date();
+      time.innerHTML = d.toLocaleTimeString();
+   },1000)
+</script>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-01.jpg">
+    <img src="assest/image/gallery-img-01.jpg" alt="Library RTU" 
+     width="600" height="400">
+  </a>
+  <div class="desc">RTU Library </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-02.jpg">
+    <img src="assest/image/gallery-img-02.jpg" width="600" height="400">
+  </a>
+  <div class="desc">Colour Run</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-03.jpg">
+    <img src="assest/image/gallery-img-03.jpg" alt="Pic with sister and niece" width="600" height="400">
+  </a>
+  <div class="desc">Sister and niece</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-04.jpg">
+    <img src="assest/image/gallery-img-04.jpg" alt="Girls Classmatte" width="600" height="400">
+  </a>
+  <div class="desc">Girls Classmatte</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-05.jpg">
+    <img src="assest/image/gallery-img-05.jpg" alt="Cycling" width="600" height="400">
+  </a>
+  <div class="desc">Cycling</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-06.jpg">
+    <img src="assest/image/gallery-img-06.jpg" alt="Movie" width="600" height="400">
+  </a>
+  <div class="desc">Movie Time</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-07.jpg">
+    <img src="assest/image/gallery-img-07.jpg" alt="Fest" width="600" height="400">
+  </a>
+  <div class="desc">Info Fest Program</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-08.jpg">
+    <img src="assest/image/gallery-img-08.jpg" alt="Roses" width="600" height="400">
+  </a>
+  <div class="desc">Yellow Roses</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-09.jpg">
+    <img src="assest/image/gallery-img-09.jpg" alt="Raya Aidilfitri" width="600" height="400">
+  </a>
+  <div class="desc">Raya Aidilfitri</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-10.jpg">
+    <img src="assest/image/gallery-img-10.jpg" alt="uitm" width="600" height="400">
+  </a>
+  <div class="desc">with UiTM Friend</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-11.jpg">
+    <img src="assest/image/gallery-img-11.jpg" alt="sunkiss" width="600" height="400">
+  </a>
+  <div class="desc">Sunkiss</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assest/image/gallery-img-12.jpg">
+    <img src="assest/image/gallery-img-12.jpg" alt="High School" width="600" height="400">
+  </a>
+  <div class="desc">High School</div>
+</div>
+
+<center>
+<video width="300" controls>
+  <source src="assest/video/gallery-vid-01.mp4" type="video/mp4">
+  <source src="assest/video/gallery-vid-01.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+
+<video width="300" controls>
+  <source src="assest/video/gallery-vid-02.mp4" type="video/mp4">
+  <source src="assest/video/gallery-vid-02.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+
+<video width="300" controls>
+  <source src="assest/video/gallery-vid-03.mp4" type="video/mp4">
+  <source src="assest/video/gallery-vid-03.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+</center>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<div class="footer-dark">
+        <footer>
+                    <div class="col-md-6 item text">
+                        <h3><center>Ainaa Fizah</center></h3>
+                        <p><center>Contact me on my social media here, if you want to know me further</center></p>
+                    </div>
+ 		    <div class="col item social">
+                    <a href="https://www.facebook.com/skdm.aainaa"><i class="fa fa-facebook"></i></a>
+			<a href="https://www.instagram.com/ainaafyzah/"><i class="fa fa-instagram"></i></a>
+			<a href="https://wa.me/601163622844?text=Hi%20Ainaa%20Fizah"><i class="fa fa-whatsapp"></i></a>
+		     </div>
+                </div>
+                <p class="copyright">Ainaa Fizah © 2023</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<html>
+<head>
+<link href="assest/css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Aainaa Fadzil</title>
+</head>
+<body>
+<body bgcolor="#F5DEB3">
+
+<a name="first_anchor"> </a>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="experience.html">Experience</a>
+  <div class="topnav-right">
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+ </div>
+</div>
+
+ <h1 id="current-time">00:00:00</h1> 
+   </div>
+
+<script>
+   let time = document.getElementById("current-time");
+
+
+   setInterval(() =>{
+      let d = new Date();
+      time.innerHTML = d.toLocaleTimeString();
+   },1000)
+</script>
+
+<h2><center>EDUCATION</center></h2>
+
+<table>
+  <tr>
+    <th>Place</th>
+    <th>Course</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>SK Dato' Mas Ud <br>
+ <a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Dato'+Mas'ud/@4.9694271,100.5531798,17z/data=!3m1!4b1!4m5!3m4!1s0x3035558c78dda675:0x1b1c252e1aae0e47!8m2!3d4.9694218!4d100.5553685" target="_blank">
+<img src="assest/image/logo-01.jpg" alt="High School" width="150" height="150"></a>
+    </td>
+    <td>Sastera</td>
+    <td>2009-2013</td>
+  </tr>
+  <tr>
+    <td>SK Teluk Medan<br>
+ <a href="https://www.google.com/maps/place/Sekolah+Kebangsaan+Teluk+Medan/@4.9875973,100.5736478,17z/data=!3m1!4b1!4m5!3m4!1s0x304aaa89cfc5f757:0x43a26d8d72af00b!8m2!3d4.9876049!4d100.5758425" target="_blank">
+ <img src="assest/image/logo-02.jpg" alt="High School" width="150" height="150"><a>
+    </td>
+    <td>Sastera</td>
+    <td>2014-2015</td>
+  </tr>
+  <tr>
+    <td>SMK Abu Bakar Al-Baqir<br>
+ <a href="https://www.google.com/maps/place/SMK+Abu+Bakar+Al-Baqir/@4.980068,100.5945183,15z/data=!4m2!3m1!1s0x0:0xbdaf72f64b4557ab?sa=X&ved=2ahUKEwjK1MquyLr8AhWtzTgGHdk_ACIQ_BJ6BAhgEAg" target="_blank">
+ <img src="assest/image/logo-03.jpg" alt="High School" width="150" height="150"></a>
+    </td>
+    <td>Business</td>
+    <td>2017-2019</td>
+  </tr>
+  <tr>
+    <td>UiTM Merbok<br>
+ <a href="https://www.google.com/maps/place/UiTM+Kedah/@5.713848,100.450482,15z/data=!4m5!3m4!1s0x0:0xe310799cc09dac88!8m2!3d5.713848!4d100.450482" target="_blank">
+ <img src="assest/image/logo-04.jpg" alt="High School" width="150" height="150"></a>
+    </td>
+    <td>Diploma Information Management</td>
+    <td>2020-2023</td>
+  </tr>
+
+</table>
+
+<br><br>
+
+<center><p><b> VIDEO OF MY EDUCATION JOURNEY: </b><p>
+
+<video width="500" height="500"controls>
+  <source src="assest/video/edu-vid.mp4" type="video/mp4">
+  <source src="assest/video/edu-vid.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+</center>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<div class="footer-dark">
+        <footer>
+                    <div class="col-md-6 item text">
+                        <h3><center>Ainaa Fizah</center></h3>
+                        <p><center>Contact me on my social media here, if you want to know me further</center></p>
+                    </div>
+ 		    <div class="col item social">
+                    <a href="https://www.facebook.com/skdm.aainaa"><i class="fa fa-facebook"></i></a>
+			<a href="https://www.instagram.com/ainaafyzah/"><i class="fa fa-instagram"></i></a>
+			<a href="https://wa.me/601163622844?text=Hi%20Ainaa%20Fizah"><i class="fa fa-whatsapp"></i></a>
+		     </div>
+                </div>
+                <p class="copyright">Ainaa Fizah © 2023</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
